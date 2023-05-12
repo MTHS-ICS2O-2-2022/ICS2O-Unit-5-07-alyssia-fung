@@ -7,15 +7,6 @@
 "use strict"
 
 /**
- * Check servie worker.
- */
-if (navigator.serviceWorker) {
-  navigator.serviceWorker.register("/ICS2O-Unit5-07-HTML/sw.js", {
-    scope: "/ICS2O-Unit5-07-HTML/",
-  })
-}
-
-/**
  * This function does multiplication.
  */
 function myButtonClicked() {
@@ -30,4 +21,3 @@ function myButtonClicked() {
 
   document.getElementById("product").innerHTML = "The product is: " + product
 }
-Footer
